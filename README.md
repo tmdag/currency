@@ -1,6 +1,6 @@
-Very simple PyQT example from the book "Rapid GUI Programming with Python and QTGui"
+# PyQT5 Currency converter
+Very simple PyQT example from the book "Rapid GUI Programming with Python and QTGui".
+Modified for Python3 and QT5 and future purposes
 
-Books code is modified by:
-- converting form Python2 -> Python3
-- converting PyQt4 to PyQt5
-- parse up-to-date Bank of Canada data via json format
+![Linux Screenshot](https://github.com/tmdag/currency/blob/master/currency/images/screen.png)
+
