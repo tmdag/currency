@@ -10,10 +10,8 @@ class Form(QDialog):
 		date = self.getdata()
 		rates = sorted(self.rates.keys())
 		dateLabel = QLabel(date)
-
 		self.fromComboBox = QComboBox()
 		self.fromComboBox.addItems(rates)
-
 		self.fromSpinBox = QDoubleSpinBox()
 		self.fromSpinBox.setRange(0.01, 100000.00)
 		self.fromSpinBox.setValue(1.000)
@@ -57,4 +55,3 @@ app = QApplication(sys.argv)
 form = Form()
 form.show()
 app.exec_()
-
